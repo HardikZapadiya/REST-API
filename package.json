@@ -1,0 +1,21 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Learn concepts of REST API",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --proxy localhost:2000 --files '**/*.js, **/*.html, **/*.css' --ignore 'node_modules'",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "nodemon": "^3.1.14"
+  }
+}
